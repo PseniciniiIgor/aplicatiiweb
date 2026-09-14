@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+div {
+  margin: 0;
+  padding: 0;
+  
+}
+.head-navbar {
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+background: #00f7ff;
+background: linear-gradient(154deg, rgba(0, 247, 255, 0.69) 0%,
+rgba(27, 31, 227, 1) 42%,
+rgba(179, 27, 156, 1) 100%);
+}
+
+.logo {
+ 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer; 
+}
+
+.logo-img {
+  height: 100px;       
+  width: auto;      
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1); 
+}
+
+.logo:hover .logo-img {
+  transform: scale(1.05);
+}
+
+.catalog{
+height: 100px;       
+width: auto;      
+display: block;
+}
