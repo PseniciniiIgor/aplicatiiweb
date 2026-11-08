@@ -1,29 +1,233 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vestiment</title>
-    <link rel="stylesheet" href="stile.css">
+  <meta charset="UTF-8">
+  <title>Magazin online de moda</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-    
-    <div class="top-bar">
-        <nav class="audience-nav">
-    <a href="Femei.html" class="btn-tab">Femei</a>
-    <a href="Barbati.html" class="btn-tab">Bărbați</a>
-    <a href="Copii.html" class="btn-tab">Copii</a>
-    </nav>
+
+  <div class="topbar">
+    <p>Livrare gratuita pentru comenzi peste 299 lei | Retur in 30 de zile</p>
+  </div>
+
+  <header class="header">
+    <div class="container header-continut">
+      <a href="#" class="logo">Vestiment</a>
+
+      <form class="cautare">
+        <input type="text" placeholder="Cauta produse, marci, categorii...">
+        <button type="submit">Cauta</button>
+      </form>
+
+      <div class="actiuni">
+        <a href="#">Contul meu</a>
+        <a href="#">Favorite</a>
+        <a href="#">Cos (0)</a>
+      </div>
     </div>
-    <div class="logo">
-    <a href="Vestiment.html">Vestiment</a>
+  </header>
+
+  <nav class="meniu">
+    <ul class="container">
+      <li><a href="#">Femei</a></li>
+      <li><a href="#">Barbati</a></li>
+      <li><a href="#">Copii</a></li>
+      <li><a href="#">Incaltaminte</a></li>
+      <li><a href="#">Accesorii</a></li>
+      <li><a href="#">Sport</a></li>
+      <li><a href="#">Noutati</a></li>
+      <li><a href="#" class="reduceri">Reduceri</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section class="hero">
+      <div class="container hero-continut">
+        <div class="hero-text">
+          <h1>Colectia de toamna, cu reduceri de pana la 50%</h1>
+          <p>Paltoane, pulovere si ghete pentru zilele reci.</p>
+          <a href="#" class="buton">Cumpara acum</a>
+        </div>
+        <img src="#" alt="Imagine principala" class="hero-imagine">
+      </div>
+    </section>
+
+    <section class="container sectiune">
+      <h2>Categorii</h2>
+      <div class="categorii">
+        <a href="#" class="categorie">
+          <img src="#" alt="Femei">
+          <span>Femei</span>
+        </a>
+        <a href="#" class="categorie">
+          <img src="#" alt="Barbati">
+          <span>Barbati</span>
+        </a>
+        <a href="#" class="categorie">
+          <img src="#" alt="Copii">
+          <span>Copii</span>
+        </a>
+        <a href="#" class="categorie">
+          <img src="#" alt="Incaltaminte">
+          <span>Incaltaminte</span>
+        </a>
+        <a href="#" class="categorie">
+          <img src="#" alt="Accesorii">
+          <span>Accesorii</span>
+        </a>
+        <a href="#" class="categorie">
+          <img src="#" alt="Sport">
+          <span>Sport</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="container sectiune">
+      <h2>Cele mai cautate produse</h2>
+      <div class="produse">
+
+        <div class="produs">
+          <img src="#" alt="Palton lung">
+          <p class="marca">Marca Exemplu</p>
+          <h3>Palton lung din lana</h3>
+          <p class="pret"><span class="pret-nou">279 lei</span> <s>399 lei</s></p>
+        </div>
+
+        <div class="produs">
+          <img src="#" alt="Pulover tricotat">
+          <p class="marca">Marca Exemplu</p>
+          <h3>Pulover tricotat cu guler inalt</h3>
+          <p class="pret"><span class="pret-nou">149 lei</span></p>
+        </div>
+
+        <div class="produs">
+          <img src="#" alt="Ghete din piele">
+          <p class="marca">Marca Exemplu</p>
+          <h3>Ghete din piele naturala</h3>
+          <p class="pret"><span class="pret-nou">239 lei</span> <s>399 lei</s></p>
+        </div>
+
+        <div class="produs">
+          <img src="#" alt="Jeansi">
+          <p class="marca">Marca Exemplu</p>
+          <h3>Jeansi drepti, talie inalta</h3>
+          <p class="pret"><span class="pret-nou">129 lei</span></p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="promo">
+      <div class="container promo-continut">
+        <div>
+          <h2>Primesti 10% reducere la prima comanda</h2>
+          <p>Creeaza un cont si foloseste codul de reducere in cos.</p>
+        </div>
+        <a href="#" class="buton buton-alb">Creeaza cont</a>
+      </div>
+    </section>
+
+    <section class="container sectiune">
+      <h2>Noutati</h2>
+      <div class="produse">
+
+        <div class="produs">
+          <img src="#" alt="Geaca matlasata">
+          <p class="marca">Marca Exemplu</p>
+          <h3>Geaca matlasata</h3>
+          <p class="pret"><span class="pret-nou">219 lei</span></p>
+        </div>
+
+        <div class="produs">
+          <img src="#" alt="Rochie midi">
+          <p class="marca">Marca Exemplu</p>
+          <h3>Rochie midi din jerseu</h3>
+          <p class="pret"><span class="pret-nou">159 lei</span></p>
+        </div>
+
+        <div class="produs">
+          <img src="#" alt="Sneakers albi">
+          <p class="marca">Marca Exemplu</p>
+          <h3>Sneakers albi din piele</h3>
+          <p class="pret"><span class="pret-nou">189 lei</span></p>
+        </div>
+
+        <div class="produs">
+          <img src="#" alt="Geanta">
+          <p class="marca">Marca Exemplu</p>
+          <h3>Geanta crossbody</h3>
+          <p class="pret"><span class="pret-nou">99 lei</span> <s>124 lei</s></p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="avantaje">
+      <div class="container avantaje-continut">
+        <div class="avantaj">
+          <h3>Livrare rapida</h3>
+          <p>Primesti comanda in 2-4 zile lucratoare.</p>
+        </div>
+        <div class="avantaj">
+          <h3>Retur in 30 de zile</h3>
+          <p>Daca nu se potriveste, returnezi gratuit.</p>
+        </div>
+        <div class="avantaj">
+          <h3>Plata sigura</h3>
+          <p>Card online sau ramburs la curier.</p>
+        </div>
+        <div class="avantaj">
+          <h3>Suport clienti</h3>
+          <p>Raspundem la mesaje de luni pana vineri.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="container newsletter-continut">
+        <h2>Aboneaza-te si afla primul despre reduceri</h2>
+        <form class="newsletter-formular">
+          <input type="text" placeholder="Adresa ta de e-mail">
+          <button type="submit">Aboneaza-ma</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="subsol">
+    <div class="container subsol-continut">
+      <div class="coloana">
+        <h4>Cumparaturi</h4>
+        <a href="#">Femei</a>
+        <a href="#">Barbati</a>
+        <a href="#">Copii</a>
+        <a href="#">Reduceri</a>
+      </div>
+      <div class="coloana">
+        <h4>Ajutor</h4>
+        <a href="#">Livrare</a>
+        <a href="#">Retur si rambursare</a>
+        <a href="#">Ghid de marimi</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="coloana">
+        <h4>Despre noi</h4>
+        <a href="#">Despre companie</a>
+        <a href="#">Termeni si conditii</a>
+        <a href="#">Confidentialitate</a>
+        <a href="#">Cookie-uri</a>
+      </div>
+      <div class="coloana">
+        <h4>Metode de plata</h4>
+        <p>Visa</p>
+        <p>Mastercard</p>
+        <p>Ramburs</p>
+      </div>
     </div>
-    <div>
-    <a href="Cabinetpersonal.html">Cabinet Personal</a>
-    <a href="Favorite.html">Favorite</a>
-    <a href="Cos_de_cumparaturi.html">Coș de cumpărături</a>
-    </div>
-    </header>
+  </footer>
+
 </body>
 </html>

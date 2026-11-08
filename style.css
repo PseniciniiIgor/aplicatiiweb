@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+a {
+  color: #222222;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  background-color: #dddddd;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.sectiune {
+  padding-top: 60px;
+}
+
+.sectiune h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.buton {
+  display: inline-block;
+  padding: 14px 30px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.buton:hover {
+  background-color: #fb0000;
+  
+}
+
+.buton-alb {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.buton-alb:hover {
+  background-color: #eeeeee;
+}
+
+.topbar {
+  height: 36px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 13px;
+  text-align: center;
+  line-height: 36px;
+}
+
+.header {
+  height: 80px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.header-continut {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.cautare {
+  display: flex;
+}
+
+.cautare input {
+  width: 420px;
+  height: 42px;
+  padding: 0 15px;
+  font-size: 15px;
+  border: 1px solid #cccccc;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.cautare button {
+  width: 90px;
+  height: 42px;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.actiuni a {
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.actiuni a:hover {
+  color: #000000;
+}
+
+.meniu {
+  height: 50px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.meniu ul {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+.meniu li a {
+  display: block;
+  height: 50px;
+  padding: 0 20px;
+  line-height: 50px;
+  font-size: 16px;
+}
+
+.meniu li a:hover {
+  color: #000000;
+  background-color: #f2f2f2;
+}
+
+.meniu .reduceri {
+  color: #c8372d;
+  font-weight: bold;
+}
+
+.hero {
+  height: 440px;
+  background-color: #f2f2f0;
+}
+
+.hero-continut {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 440px;
+}
+
+.hero-text {
+  width: 560px;
+}
+
+.hero-text h1 {
+  font-size: 46px;
+  line-height: 54px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.hero-imagine {
+  width: 560px;
+  height: 360px;
+}
+
+.categorii {
+  display: flex;
+  justify-content: space-between;
+}
+
+.categorie {
+  width: 180px;
+  text-align: center;
+}
+
+.categorie img {
+  width: 180px;
+  height: 240px;
+  margin-bottom: 10px;
+}
+
+.categorie span {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.categorie:hover span {
+  color: #000000;
+}
+
+
+.produse {
+  display: flex;
+  justify-content: space-between;
+}
+
+.produs {
+  width: 285px;
+}
+
+.produs img {
+  width: 285px;
+  height: 360px;
+  margin-bottom: 12px;
+}
+
+.marca {
+  font-size: 13px;
+  color: #000000;
+}
+
+.produs h3 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.pret {
+  font-size: 15px;
+  color: #000000;
+}
+
+.pret-nou {
+  font-size: 17px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.pret s {
+  margin-left: 6px;
+}
+
+.promo {
+  height: 150px;
+  margin-top: 60px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.promo-continut {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+}
+
+.promo h2 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.promo p {
+  font-size: 16px;
+}
+
+
+.avantaje {
+  margin-top: 60px;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
+.avantaje-continut {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.avantaj {
+  width: 270px;
+  text-align: center;
+}
+
+.avantaj h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.avantaj p {
+  font-size: 14px;
+  color: #000000;
+}
+
+.newsletter {
+  height: 150px;
+  background-color: #f2f2f0;
+}
+
+.newsletter-continut {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+}
+
+.newsletter h2 {
+  width: 500px;
+  font-size: 26px;
+}
+
+.newsletter-formular {
+  display: flex;
+}
+
+.newsletter-formular input {
+  width: 340px;
+  height: 46px;
+  padding: 0 15px;
+  font-size: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.newsletter-formular button {
+  width: 140px;
+  height: 46px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #030303;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.subsol {
+  background-color: #020202;
+  color: #cccccc;
+}
+
+.subsol-continut {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.coloana {
+  width: 270px;
+}
+
+.coloana h4 {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.coloana a,
+.coloana p {
+  display: block;
+  font-size: 14px;
+  color: #bbbbbb;
+  margin-bottom: 8px;
+}
+
+.coloana a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
